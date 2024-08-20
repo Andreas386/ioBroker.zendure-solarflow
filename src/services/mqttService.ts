@@ -35,6 +35,9 @@ export const addOrUpdatePackData = async (
         if (x.sn.startsWith("C")) {
           // It's a AB2000
           batType = "AB2000";
+        } else if (x.sn.startsWith("ABB")) {
+          // It's a AIO
+          batType = "AIO2400";
         } else if (x.sn.startsWith("A")) {
           // It's a AB1000
           batType = "AB1000";
