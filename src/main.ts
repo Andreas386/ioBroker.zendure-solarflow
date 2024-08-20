@@ -140,6 +140,7 @@ export class ZendureSolarflow extends utils.Adapter {
                     device.productName.toLowerCase().includes("solarflow") ||
                     device.productName.toLowerCase().includes("hyper") ||
                     device.productName.toLowerCase() == "ace 1500" ||
+                    device.productName.toLowerCase().includes("aio") ||
                     device.productName.toLowerCase().includes("smart plug")
                 );
 
